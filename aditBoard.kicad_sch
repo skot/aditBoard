@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "0c5a2978-3f7a-4586-9b29-75f4eaf2eb2d")
 	(paper "A4")
+	(title_block
+		(title "aditBoard")
+		(date "2024-03-26")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x09_Odd_Even"
 			(pin_names
