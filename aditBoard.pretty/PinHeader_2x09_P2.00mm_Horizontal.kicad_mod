@@ -295,15 +295,28 @@
 		(uuid "6cb17726-da15-463f-a44c-233a7bba43ad")
 	)
 	(fp_rect
-		(start -1.5 -1.5)
-		(end 10.19 17.59)
+		(start -0.74 -0.72)
+		(end 2.72 16.69)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill none)
+		(layer "B.CrtYd")
+		(uuid "678b90b9-8a02-4259-9350-9e935167fb54")
+	)
+	(fp_poly
+		(pts
+			(xy -0.74 -0.73) (xy 3.13 -0.72) (xy 3.13 -1.43) (xy 10.08 -1.43) (xy 10.12 17.44) (xy 3.08 17.44)
+			(xy 3.06 16.76) (xy -0.78 16.73)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
 		(layer "F.CrtYd")
-		(uuid "fabe7f64-4e44-4b79-bf80-8c93649a34b9")
+		(uuid "5c6e88e6-ec1c-47c3-821b-1d2fe4723ad3")
 	)
 	(fp_line
 		(start -0.25 -0.25)

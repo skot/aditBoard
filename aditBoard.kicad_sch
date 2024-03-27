@@ -5,108 +5,6 @@
 	(uuid "0c5a2978-3f7a-4586-9b29-75f4eaf2eb2d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_02x09_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -1257,6 +1155,204 @@
 				)
 			)
 		)
+		(symbol "aditBoard:AP2112K-3.3TRG1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U4"
+				(at 0 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP2112K-3.3TRG1"
+				(at 0 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "aditBoard:SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL"
+				(at 49.53 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Diodes-Incorporated-AP2112K-3-3TRG1_C51118.pdf"
+				(at -8.89 1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DK" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTNO" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C51118"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TSOT-23-5_RIT TSOT-23-5_RIT-M TSOT-23-5_RIT-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP2112K-3.3TRG1_1_1"
+				(rectangle
+					(start -6.35 3.81)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 6.35 270)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "aditBoard:RP2040"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2366,195 +2462,6 @@
 				)
 			)
 		)
-		(symbol "aditBoard:RT9080-33GJ5"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U4"
-				(at 0 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RT9080-33GJ5"
-				(at 0 5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "bitaxe:RT9080-33GJ5"
-				(at 49.53 17.78 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9080/DS9080-05.pdf"
-				(at -8.89 1.27 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DK" "1028-1509-1-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTNO" "RT9080-33GJ5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TSOT-23-5_RIT TSOT-23-5_RIT-M TSOT-23-5_RIT-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RT9080-33GJ5_1_1"
-				(rectangle
-					(start -6.35 3.81)
-					(end 6.35 -3.81)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 -1.27 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 6.35 270)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 1.27 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "aditBoard:USB_C_Receptacle_USB2.0"
 			(pin_names
 				(offset 1.016)
@@ -3510,22 +3417,10 @@
 		(uuid "3678b5b2-68f4-4f43-9fa0-0995cbf419ce")
 	)
 	(junction
-		(at 124.46 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5559d2e4-ac27-418b-8248-36b41f439989")
-	)
-	(junction
 		(at 227.33 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "619cf42e-eef5-4fbc-8b18-707533b87044")
-	)
-	(junction
-		(at 121.92 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6535849a-3f7f-4956-ac58-6dfeb197a3e0")
 	)
 	(junction
 		(at 161.29 49.53)
@@ -3666,10 +3561,6 @@
 		(uuid "1e8edc24-d3b6-4c68-b442-6e7e8ff63c7f")
 	)
 	(no_connect
-		(at 53.34 97.79)
-		(uuid "2d3a20cb-4816-4777-a60c-43460196c630")
-	)
-	(no_connect
 		(at 176.53 68.58)
 		(uuid "45f07ddd-d3a5-4fd8-adb6-d62520de8899")
 	)
@@ -3758,22 +3649,8 @@
 		(uuid "c86d20fa-1b8e-4139-97e6-bf8f94110345")
 	)
 	(no_connect
-		(at 53.34 95.25)
-		(uuid "d9eef485-701e-4303-b321-1ea336f11aa7")
-	)
-	(no_connect
 		(at 176.53 137.16)
 		(uuid "e375bc0a-b6d8-4f4f-b3bb-3a200fcb0455")
-	)
-	(wire
-		(pts
-			(xy 124.46 83.82) (xy 125.73 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00939158-4322-473c-a021-2dbba56b1605")
 	)
 	(wire
 		(pts
@@ -4167,6 +4044,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 134.62) (xy 125.73 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36dee748-6400-48bb-b320-31c2fd92a820")
+	)
+	(wire
+		(pts
 			(xy 139.7 43.18) (xy 139.7 44.45)
 		)
 		(stroke
@@ -4357,7 +4244,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 83.82) (xy 124.46 83.82)
+			(xy 113.03 83.82) (xy 125.73 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4394,6 +4281,16 @@
 			(type default)
 		)
 		(uuid "5e90394f-b59d-464d-b2ae-04e7d1a77488")
+	)
+	(wire
+		(pts
+			(xy 45.72 95.25) (xy 53.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6449c017-f6db-4c9b-bec8-c2c2175fa005")
 	)
 	(wire
 		(pts
@@ -4454,16 +4351,6 @@
 			(type default)
 		)
 		(uuid "6efbc62a-756e-4f91-a4a3-c08eb3b9ec82")
-	)
-	(wire
-		(pts
-			(xy 121.92 134.62) (xy 125.73 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70e89e9d-c0d5-4c35-a856-80c58b763dc7")
 	)
 	(wire
 		(pts
@@ -4534,6 +4421,16 @@
 			(type default)
 		)
 		(uuid "78ebec78-61e4-4c58-8aa7-780cd1be3622")
+	)
+	(wire
+		(pts
+			(xy 45.72 97.79) (xy 53.34 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a70033-904d-4f76-9831-9775fb1afed7")
 	)
 	(wire
 		(pts
@@ -4934,16 +4831,6 @@
 			(type default)
 		)
 		(uuid "b2c9c9bb-9487-4cd6-a7b5-a9e90c9dadf0")
-	)
-	(wire
-		(pts
-			(xy 121.92 132.08) (xy 125.73 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b412c05b-d395-482d-bb1d-d450ea124ba6")
 	)
 	(wire
 		(pts
@@ -5377,6 +5264,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 132.08) (xy 125.73 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94df4ab-bcf7-442b-8800-4e6d578df12f")
+	)
+	(wire
+		(pts
 			(xy 137.16 29.21) (xy 148.59 29.21)
 		)
 		(stroke
@@ -5426,6 +5323,39 @@
 			(justify left bottom)
 		)
 		(uuid "000a3961-d12e-4493-b1f1-66d26d2ffba0")
+	)
+	(label "SWD"
+		(at 45.72 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "027236c2-5028-42d9-adf8-2539044d0a27")
+	)
+	(label "SWCLK"
+		(at 113.03 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08a9ae9d-3391-423a-ace2-1fa1dc000412")
+	)
+	(label "SWD"
+		(at 113.03 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "114fc1ff-6052-4b63-9b76-1e3486c197c1")
 	)
 	(label "GND"
 		(at 213.36 138.43 0)
@@ -5955,6 +5885,17 @@
 		)
 		(uuid "ba1de817-892b-441b-9d3b-26462460172d")
 	)
+	(label "SWCLK"
+		(at 45.72 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be53b338-1a5c-4d13-8655-c92caf586308")
+	)
 	(label "GND"
 		(at 205.74 39.37 0)
 		(fields_autoplaced yes)
@@ -6153,6 +6094,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25744"
+			(at 34.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0001330-b4a6-47c7-b9a0-611b0f5c6931")
 		)
@@ -6169,7 +6119,7 @@
 		)
 	)
 	(symbol
-		(lib_id "aditBoard:RT9080-33GJ5")
+		(lib_id "aditBoard:AP2112K-3.3TRG1")
 		(at 57.15 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6186,7 +6136,7 @@
 				)
 			)
 		)
-		(property "Value" "RT9080-33GJ5"
+		(property "Value" "AP2112K-3.3TRG1"
 			(at 57.15 28.448 0)
 			(effects
 				(font
@@ -6194,7 +6144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aditBoard:RT9080-33GJ5"
+		(property "Footprint" "aditBoard:SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 106.68 16.51 0)
 			(effects
 				(font
@@ -6203,7 +6153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9080/DS9080-05.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Diodes-Incorporated-AP2112K-3-3TRG1_C51118.pdf"
 			(at 48.26 33.02 0)
 			(effects
 				(font
@@ -6221,7 +6171,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "1028-1509-1-ND"
+		(property "DK" ""
 			(at 57.15 34.29 0)
 			(effects
 				(font
@@ -6230,7 +6180,16 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RT9080-33GJ5"
+		(property "PARTNO" ""
+			(at 57.15 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C51118"
 			(at 57.15 34.29 0)
 			(effects
 				(font
@@ -6309,6 +6268,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2040"
 			(at 151.13 104.14 0)
 			(effects
 				(font
@@ -6534,7 +6502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Samsung-Electro-Mechanics_CL05B104KB54PNC_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
+		(property "Datasheet" ""
 			(at 181.61 24.13 0)
 			(effects
 				(font
@@ -6639,7 +6607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A105KA5NQNC_1uF-105-10-25V_C52923.html"
+		(property "Datasheet" ""
 			(at 139.7 38.1 0)
 			(effects
 				(font
@@ -6745,7 +6713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Samsung-Electro-Mechanics_CL05B104KB54PNC_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
+		(property "Datasheet" ""
 			(at 88.9 124.46 0)
 			(effects
 				(font
@@ -6852,7 +6820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_30pF-300-5-50V_C1570.html"
+		(property "Datasheet" ""
 			(at 44.45 158.75 0)
 			(effects
 				(font
@@ -6991,6 +6959,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25900"
+			(at 251.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b0e4b01-a33a-43c2-81f2-f0aa562d69c7")
 		)
@@ -7001,71 +6978,6 @@
 			(project "aditBoard"
 				(path "/0c5a2978-3f7a-4586-9b29-75f4eaf2eb2d"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 121.92 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "702ed528-a409-4917-abaf-82b5b04faff4")
-		(property "Reference" "TP5"
-			(at 115.824 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 118.745 132.715 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 121.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "700ce6a8-197b-47ee-8880-c01d50bc503a")
-		)
-		(instances
-			(project "aditBoard"
-				(path "/0c5a2978-3f7a-4586-9b29-75f4eaf2eb2d"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7108,7 +7020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Samsung-Electro-Mechanics_CL05B104KB54PNC_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
+		(property "Datasheet" ""
 			(at 170.18 24.13 0)
 			(effects
 				(font
@@ -7214,7 +7126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Samsung-Electro-Mechanics_CL05B104KB54PNC_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
+		(property "Datasheet" ""
 			(at 238.76 24.13 0)
 			(effects
 				(font
@@ -7284,71 +7196,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 121.92 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82f74561-1421-4523-b70d-7021940b256a")
-		(property "Reference" "TP6"
-			(at 115.824 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 118.745 140.335 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 121.92 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2870520-a737-42b2-a90b-39c2a0513988")
-		)
-		(instances
-			(project "aditBoard"
-				(path "/0c5a2978-3f7a-4586-9b29-75f4eaf2eb2d"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 35.56 72.39 90)
 		(unit 1)
@@ -7410,6 +7257,15 @@
 			)
 		)
 		(property "PARTNO" "RMCF0402JT5K10"
+			(at 35.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25905"
 			(at 35.56 72.39 0)
 			(effects
 				(font
@@ -7506,6 +7362,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C52923"
+			(at 74.93 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac5f5125-522e-44e8-8b9a-c499d151a760")
 		)
@@ -7516,71 +7381,6 @@
 			(project "aditBoard"
 				(path "/0c5a2978-3f7a-4586-9b29-75f4eaf2eb2d"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 121.92 132.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92305849-d549-479b-afee-cb79b2ebd34a")
-		(property "Reference" "TP4"
-			(at 115.824 132.334 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 118.745 130.175 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 121.92 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f76b2eb-acbb-432b-b688-101595605fb7")
-		)
-		(instances
-			(project "aditBoard"
-				(path "/0c5a2978-3f7a-4586-9b29-75f4eaf2eb2d"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7623,7 +7423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_30pF-300-5-50V_C1570.html"
+		(property "Datasheet" ""
 			(at 67.31 158.75 0)
 			(effects
 				(font
@@ -7765,6 +7565,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C52923"
+			(at 36.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de281653-d3c6-4ff0-a79d-02d0cea536b2")
 		)
@@ -7814,7 +7623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A105KA5NQNC_1uF-105-10-25V_C52923.html"
+		(property "Datasheet" ""
 			(at 177.8 49.53 0)
 			(effects
 				(font
@@ -7953,6 +7762,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25900"
+			(at 256.54 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93f801f1-33b8-4bfe-9af7-0133cd79d6c0")
 		)
@@ -8038,6 +7856,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25905"
+			(at 44.45 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ff31c4d-8da4-4240-958c-da64e90896ef")
 		)
@@ -8087,7 +7914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YXC-X322512MSB4SI_C9002.pdf"
 			(at 55.88 162.56 0)
 			(effects
 				(font
@@ -8181,7 +8008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Samsung-Electro-Mechanics_CL05B104KB54PNC_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
+		(property "Datasheet" ""
 			(at 193.04 24.13 0)
 			(effects
 				(font
@@ -8284,7 +8111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_33R-33R0-1_C25105.html"
+		(property "Datasheet" ""
 			(at 127 76.2 0)
 			(effects
 				(font
@@ -8502,7 +8329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_33R-33R0-1_C25105.html"
+		(property "Datasheet" ""
 			(at 127 73.66 0)
 			(effects
 				(font
@@ -8608,7 +8435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Samsung-Electro-Mechanics_CL05B104KB54PNC_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
+		(property "Datasheet" ""
 			(at 137.16 24.13 0)
 			(effects
 				(font
@@ -8714,7 +8541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Samsung-Electro-Mechanics_CL05B104KB54PNC_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
+		(property "Datasheet" ""
 			(at 125.73 24.13 0)
 			(effects
 				(font
@@ -8853,6 +8680,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25900"
+			(at 203.2 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6e36fa7-5915-4fbe-aa85-d1bd63862c9e")
 		)
@@ -8863,73 +8699,6 @@
 			(project "aditBoard"
 				(path "/0c5a2978-3f7a-4586-9b29-75f4eaf2eb2d"
 					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 124.46 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0be218f-1b41-41cd-b9f6-c6dbb0eba58c")
-		(property "Reference" "TP1"
-			(at 122.936 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 114.935 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 129.54 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53f4d5eb-3cb6-478a-b370-74b18735b603")
-		)
-		(instances
-			(project "aditBoard"
-				(path "/0c5a2978-3f7a-4586-9b29-75f4eaf2eb2d"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -8972,7 +8741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Samsung-Electro-Mechanics_CL05B104KB54PNC_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
+		(property "Datasheet" ""
 			(at 227.33 24.13 0)
 			(effects
 				(font
@@ -9095,7 +8864,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3012192"
+		(property "LCSC" ""
 			(at 227.33 138.43 0)
 			(effects
 				(font
@@ -9114,6 +8883,15 @@
 			)
 		)
 		(property "DK" ""
+			(at 227.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3012192"
 			(at 227.33 138.43 0)
 			(effects
 				(font
@@ -9222,7 +9000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Samsung-Electro-Mechanics_CL05B104KB54PNC_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
+		(property "Datasheet" ""
 			(at 204.47 24.13 0)
 			(effects
 				(font
@@ -9365,6 +9143,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2988369"
+			(at 68.58 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1B12"
 			(uuid "9d50cce6-483c-4c45-b444-72a41bcc15b3")
 		)
@@ -9450,7 +9237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Samsung-Electro-Mechanics_CL05B104KB54PNC_Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
+		(property "Datasheet" ""
 			(at 215.9 24.13 0)
 			(effects
 				(font
