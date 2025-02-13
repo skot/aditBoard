@@ -8261,7 +8261,7 @@
 				)
 			)
 		)
-		(property "Value" "W25X40CLUXIG TR"
+		(property "Value" "W25Q16JVUXIQ"
 			(at 63.754 139.7 0)
 			(effects
 				(font
@@ -8278,7 +8278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "W25Q16JVUXIQ TR"
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q16jv%20spi%20revh%2004082019%20plus.pdf"
 			(at 53.594 146.304 0)
 			(effects
 				(font
@@ -8297,33 +8297,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "WINBOND(华邦)"
-			(at 53.34 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C401661"
-			(at 53.34 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part" "Extended Part"
-			(at 53.34 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DK" "256-W25Q16JVUXIQTRCT-ND"
 			(at 54.102 149.352 0)
 			(effects
@@ -8333,7 +8306,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "W25Q16JVUXIQ TR"
+		(property "PARTNO" "W25Q16JVUXIQ"
 			(at 54.61 151.638 0)
 			(effects
 				(font

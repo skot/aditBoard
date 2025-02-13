@@ -704,9 +704,9 @@
 			(pintype "output")
 			(uuid "cefe7a4e-db87-4a8a-9e63-c55d513a4f7b")
 		)
-		(model "/Users/skot/Work/Bitcoin/bitcart/aditBoard/aditBoard.3dshapes/SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL.wrl"
+		(model "${KIPRJMOD}/aditBoard.3dshapes/SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1758,7 +1758,7 @@
 			(pintype "unspecified")
 			(uuid "a05b03c5-3329-4f21-b170-8c6bdde47ffa")
 		)
-		(model "/Users/skot/Work/Bitcoin/bitcart/aditBoard/aditBoard.3dshapes/USON-8_L3.0-W2.0-H0.6-P0.50.wrl"
+		(model "${KIPRJMOD}/aditBoard.3dshapes/USON-8_L3.0-W2.0-H0.6-P0.50.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -2689,13 +2689,13 @@
 		)
 		(model "${KIPRJMOD}/aditBoard.3dshapes/SAMTEC-SQT-109-01-X-D-RA.step"
 			(offset
-				(xyz 3.3 -8 2)
+				(xyz 3.3 -8 -3.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 180 90)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -4865,7 +4865,7 @@
 			(pintype "passive")
 			(uuid "7579689f-f823-433d-986b-1dc050ce5d15")
 		)
-		(model "/Users/skot/Work/Bitcoin/bitcart/aditBoard/aditBoard.3dshapes/OSC-SMD_4P-L3.2-W2.5-H1.0.wrl"
+		(model "${KIPRJMOD}/aditBoard.3dshapes/OSC-SMD_4P-L3.2-W2.5-H1.0.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
