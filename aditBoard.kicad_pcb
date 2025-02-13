@@ -704,7 +704,7 @@
 			(pintype "output")
 			(uuid "cefe7a4e-db87-4a8a-9e63-c55d513a4f7b")
 		)
-		(model "${KIPRJMOD}/aditBoard.3dshapes/SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL.wrl"
+		(model "${KIPRJMOD}/aditBoard.3dshapes/SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL.step"
 			(offset
 				(xyz 0 -0 0.2)
 			)
@@ -1758,7 +1758,7 @@
 			(pintype "unspecified")
 			(uuid "a05b03c5-3329-4f21-b170-8c6bdde47ffa")
 		)
-		(model "${KIPRJMOD}/aditBoard.3dshapes/USON-8_L3.0-W2.0-H0.6-P0.50.wrl"
+		(model "${KIPRJMOD}/aditBoard.3dshapes/USON-8_L3.0-W2.0-H0.6-P0.50.step"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -2674,18 +2674,6 @@
 			(pinfunction "Pin_18")
 			(pintype "passive+no_connect")
 			(uuid "2a657804-b366-4250-82c5-27a682f6827b")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_2x09_P2.00mm_Horizontal.wrl"
-			(hide yes)
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
 		)
 		(model "${KIPRJMOD}/aditBoard.3dshapes/SAMTEC-SQT-109-01-X-D-RA.step"
 			(offset
@@ -4865,7 +4853,7 @@
 			(pintype "passive")
 			(uuid "7579689f-f823-433d-986b-1dc050ce5d15")
 		)
-		(model "${KIPRJMOD}/aditBoard.3dshapes/OSC-SMD_4P-L3.2-W2.5-H1.0.wrl"
+		(model "${KIPRJMOD}/aditBoard.3dshapes/OSC-SMD_4P-L3.2-W2.5-H1.0.step"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -8520,7 +8508,7 @@
 			(pintype "passive")
 			(uuid "039741b1-feb0-478b-b5e1-f8b402753f11")
 		)
-		(model "${KICAD7_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.wrl"
+		(model "${KIPRJMOD}/aditBoard.3dshapes/USB-C-SMD_G-SWITCH_GT-USB-7010ASV.step"
 			(offset
 				(xyz 0 0 0)
 			)
