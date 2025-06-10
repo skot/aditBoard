@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "aditBoard")
-		(date "2024-03-26")
-		(rev "1")
+		(date "2025-06-10")
+		(rev "2")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x09_Odd_Even"
@@ -3417,6 +3417,149 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "athvfd:SK6812SIDE-A-RVS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -4.572 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK6812"
+				(at 1.778 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "athvfd:LED-SMD_4P-L4.0-W1.6-L"
+				(at 9.906 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6812SIDE-A-RVS_C2890037.pdf"
+				(at -1.778 -8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -7.62 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2890037"
+				(at 8.128 -12.954 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812SIDE-A-RVS_1_1"
+				(rectangle
+					(start -5.08 2.54)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -1.27 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -1.27 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "RP2040 3V3 LDO"
 		(exclude_from_sim no)
@@ -3622,10 +3765,6 @@
 		(uuid "1e8edc24-d3b6-4c68-b442-6e7e8ff63c7f")
 	)
 	(no_connect
-		(at 176.53 68.58)
-		(uuid "45f07ddd-d3a5-4fd8-adb6-d62520de8899")
-	)
-	(no_connect
 		(at 176.53 129.54)
 		(uuid "4aebffb3-3980-49f1-b965-80e2905b80e8")
 	)
@@ -3680,6 +3819,10 @@
 	(no_connect
 		(at 176.53 111.76)
 		(uuid "a0061b84-22cf-4669-9323-f828c653b118")
+	)
+	(no_connect
+		(at 214.63 71.12)
+		(uuid "a1033174-f5b3-485c-9686-ab317342b731")
 	)
 	(no_connect
 		(at 176.53 76.2)
@@ -4112,6 +4255,16 @@
 			(type default)
 		)
 		(uuid "36dee748-6400-48bb-b320-31c2fd92a820")
+	)
+	(wire
+		(pts
+			(xy 196.85 71.12) (xy 199.39 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3817f357-b939-412d-8ada-f23e7c5d94f9")
 	)
 	(wire
 		(pts
@@ -4745,6 +4898,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 68.58) (xy 199.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e53a506-129d-448b-a23e-14e12b4c1b30")
+	)
+	(wire
+		(pts
 			(xy 213.36 138.43) (xy 222.25 138.43)
 		)
 		(stroke
@@ -4952,6 +5115,16 @@
 			(type default)
 		)
 		(uuid "bbff77b2-1742-45f4-8a96-1b7e516d073c")
+	)
+	(wire
+		(pts
+			(xy 214.63 68.58) (xy 218.44 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0aaf00-e843-477d-bc4c-0910ecd87c2a")
 	)
 	(wire
 		(pts
@@ -5933,6 +6106,16 @@
 		)
 		(uuid "cadc4609-174d-40f9-96c4-9f08aee50e1c")
 	)
+	(label "GND"
+		(at 218.44 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb31a98d-f67b-4bc7-a8a2-d3fe434836c1")
+	)
 	(label "USB_DP"
 		(at 34.29 90.17 0)
 		(effects
@@ -6022,6 +6205,16 @@
 			(justify left bottom)
 		)
 		(uuid "ed262f82-550d-4143-b77b-263a8eb8c1f1")
+	)
+	(label "5V"
+		(at 196.85 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eee9ed36-7268-435c-adff-f2d402f8c421")
 	)
 	(label "3V3"
 		(at 69.85 33.02 0)
@@ -7000,6 +7193,88 @@
 			(project "aditBoard"
 				(path "/0c5a2978-3f7a-4586-9b29-75f4eaf2eb2d"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "athvfd:SK6812SIDE-A-RVS")
+		(at 207.01 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dca252d-6da6-4f3b-a281-a191f9cbb29e")
+		(property "Reference" "U1"
+			(at 203.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 208.788 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "aditBoard:LED-SMD_4P-L4.0-W1.6-L"
+			(at 216.916 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6812SIDE-A-RVS_C2890037.pdf"
+			(at 205.232 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2890037"
+			(at 215.138 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c92a76c3-a3a4-4693-af39-4aa6c724db56")
+		)
+		(pin "2"
+			(uuid "12d8fa53-11f0-4dbe-8e0e-80d1e8056a10")
+		)
+		(pin "1"
+			(uuid "2278d997-2763-46b8-95a3-c7d7100e9845")
+		)
+		(pin "3"
+			(uuid "ed124d0c-fc59-4360-ba58-3a3a0b90dbd5")
+		)
+		(instances
+			(project "aditBoard"
+				(path "/0c5a2978-3f7a-4586-9b29-75f4eaf2eb2d"
+					(reference "U1")
 					(unit 1)
 				)
 			)
