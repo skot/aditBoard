@@ -60,7 +60,15 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|120936062|80850000|427f775a-9c0d-456b-9419-779b05dfc83a|6dc48d82-26d4-4f10-bf3f-b7a650c1f5ea",
+          "hole_clearance|119025000|103850000|d43269c7-8897-43ab-81e2-36e4494935fb|93b3e057-0197-46a7-b82a-f112ed396c7e",
+          ""
+        ],
+        [
+          "hole_clearance|125125000|103850000|92c48f19-2fbc-42dd-bc93-78540872e5e2|326876d1-e103-48e2-af2e-70e9a13b469f",
+          ""
+        ],
+        [
+          "silk_edge_clearance|120933031|80850000|427f775a-9c0d-456b-9419-779b05dfc83a|0699eb49-fb85-45b1-b87c-615d52435af9",
           ""
         ]
       ],
@@ -723,12 +731,6 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
           "show": true
         },
         {

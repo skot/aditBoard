@@ -1,7 +1,7 @@
 (footprint "SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -5.3 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e461cb62-3d95-4ea2-8ad7-60820b5f74b8")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -120,9 +110,23 @@
 			(width 0.25)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "06d08353-b917-4185-b83f-6aefd5ece7de")
+	)
+	(fp_poly
+		(pts
+			(xy -1.326 0.697) (xy -1.487 0.692) (xy -1.487 -0.65) (xy -1.322 -0.654) (xy -1.322 -1.904) (xy -0.54499 -1.902828)
+			(xy -0.545 -0.654) (xy 0.51 -0.654) (xy 0.510008 -1.901236) (xy 1.329 -1.9) (xy 1.329 -0.654) (xy 1.523 -0.654)
+			(xy 1.523 0.697) (xy 1.355 0.697) (xy 1.355 1.879) (xy -1.326 1.879)
+		)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4e1cfde1-a1a5-41f9-8357-33a3d8aaec98")
 	)
 	(fp_circle
 		(center -1.45 1.4)
@@ -131,7 +135,7 @@
 			(width 0.06)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a44655a4-d714-450b-954e-5ae876bb3c88")
 	)
@@ -149,33 +153,34 @@
 	(pad "1" smd rect
 		(at -0.95 1.3)
 		(size 0.62 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5c8bfd77-36ad-40a9-a747-811ac56eeffc")
 	)
 	(pad "2" smd rect
 		(at 0 1.3)
 		(size 0.62 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "390a6822-eb41-4120-a0b3-0d396f6f3bbc")
 	)
 	(pad "3" smd rect
 		(at 0.95 1.3)
 		(size 0.62 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eea06f5a-df3e-4aad-8689-d072a0a98c1f")
 	)
 	(pad "4" smd rect
 		(at 0.95 -1.3)
 		(size 0.62 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e53e8730-bb8e-4acc-bee9-e3e1f0c9de80")
 	)
 	(pad "5" smd rect
 		(at -0.95 -1.3)
 		(size 0.62 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e9bd46a2-195d-4f8a-a422-b0d63115a811")
 	)
+	(embedded_fonts no)
 	(model "/Users/skot/Work/Bitcoin/bitcart/aditBoard/aditBoard.3dshapes/SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL.wrl"
 		(offset
 			(xyz 0 -0 -0)

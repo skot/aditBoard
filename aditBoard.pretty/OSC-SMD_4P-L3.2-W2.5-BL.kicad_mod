@@ -1,7 +1,7 @@
 (footprint "OSC-SMD_4P-L3.2-W2.5-BL"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4.88 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cac060e5-6fc4-4e90-bf50-006d02d44a3e")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -122,15 +112,16 @@
 		(layer "F.SilkS")
 		(uuid "b3c77d74-99fe-4841-bb8f-79a83342a548")
 	)
-	(fp_line
-		(start 2.03 1.65)
-		(end 2.03 1.65)
+	(fp_rect
+		(start -2.136 -1.751)
+		(end 2.133 1.755)
 		(stroke
-			(width 0.15)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
-		(layer "F.SilkS")
-		(uuid "db405175-1ccc-468a-b71a-e49312c50cd8")
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "95c83a10-1c85-4bf5-b649-21f45e1f740e")
 	)
 	(fp_circle
 		(center -1.6 1.25)
@@ -139,7 +130,7 @@
 			(width 0.06)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "5b6e9d0a-443c-495c-b6bb-561be03eded8")
 	)
@@ -157,27 +148,28 @@
 	(pad "1" smd rect
 		(at -1.1 0.88)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4ba3efa6-2aca-4ae4-9031-65b334fed391")
 	)
 	(pad "2" smd rect
 		(at 1.1 0.88)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5a47461a-226f-47ec-9401-a0c30fe2525f")
 	)
 	(pad "3" smd rect
 		(at 1.1 -0.88)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "163d0074-d3c0-4ede-85ea-903dcceb92ea")
 	)
 	(pad "4" smd rect
 		(at -1.1 -0.88)
 		(size 1.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c7568ddc-3182-4d99-a2cd-006420cbee87")
 	)
+	(embedded_fonts no)
 	(model "/Users/skot/Work/Bitcoin/bitcart/aditBoard/aditBoard.3dshapes/OSC-SMD_4P-L3.2-W2.5-H1.0.wrl"
 		(offset
 			(xyz 0 -0 -0)

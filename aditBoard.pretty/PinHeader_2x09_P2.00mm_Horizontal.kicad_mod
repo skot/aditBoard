@@ -1,7 +1,7 @@
 (footprint "PinHeader_2x09_P2.00mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole angled pin header, 2x09, 2.00mm pitch, 4.2mm pin length, double rows")
 	(tags "Through hole angled pin header THT 2x09 2.00mm double row")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x09_P2.00mm_Horizontal"
-		(at 0.35 -10.52 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9477a54e-c1cd-45c7-b3a7-a5973dbb8404")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2312162216_HCTL-PM200-2-09-W-4-3_C3012192.pdf"
 		(at 0.35 -10.52 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -110,7 +100,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "32fcfbf7-cad9-4eb1-9fb0-bbe538c4427f")
 	)
 	(fp_line
@@ -120,7 +110,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "70adf3bc-6baa-4898-9c89-a9fec6bf24dd")
 	)
 	(fp_line
@@ -130,7 +120,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "23884819-5c58-4c41-a8c3-ed73f3fb8e40")
 	)
 	(fp_line
@@ -140,7 +130,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "be6ec4a3-181a-468c-9adb-645728b247fd")
 	)
 	(fp_line
@@ -150,7 +140,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "a88ba01d-fac5-44df-8c90-bbe8904136c1")
 	)
 	(fp_line
@@ -160,7 +150,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "71ab88b5-3b05-49cb-be8f-4a0acd689ce4")
 	)
 	(fp_line
@@ -170,7 +160,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "2a72fb18-1fa7-4cc5-8a15-3812867df232")
 	)
 	(fp_line
@@ -180,7 +170,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "0ce64c26-9a98-468a-a715-5f2a22835cf4")
 	)
 	(fp_line
@@ -190,7 +180,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "5a6e8116-ac59-4c0b-9ea0-701cecb953a7")
 	)
 	(fp_line
@@ -200,7 +190,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "a92c34a3-26ba-40cf-afa1-891bbb6e8187")
 	)
 	(fp_line
@@ -210,7 +200,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "feb2698c-11e0-4dfe-ac07-cf2a9648fcc0")
 	)
 	(fp_line
@@ -220,7 +210,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "e2f6acf6-173c-498e-abc1-d677b1ce62f8")
 	)
 	(fp_line
@@ -230,7 +220,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "149bbe23-c78c-41c8-a874-9301bef17a93")
 	)
 	(fp_line
@@ -240,7 +230,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "4f77d5e0-9be3-4ff7-9784-e9d09d04d545")
 	)
 	(fp_line
@@ -250,7 +240,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "e1382582-ab4d-4d66-85e3-f1c9fa38b3a5")
 	)
 	(fp_line
@@ -260,7 +250,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "7c87d585-33ce-4f63-9c57-f24d088e3363")
 	)
 	(fp_line
@@ -270,7 +260,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "8e7774f3-ce96-48e6-b96b-5c96d87f1d4f")
 	)
 	(fp_line
@@ -280,7 +270,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "B.SilkS")
 		(uuid "3f9d7842-4645-4f7c-b160-ee74c981ab66")
 	)
 	(fp_rect
@@ -290,7 +280,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "6cb17726-da15-463f-a44c-233a7bba43ad")
 	)
@@ -301,7 +291,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "678b90b9-8a02-4259-9350-9e935167fb54")
 	)
@@ -314,7 +304,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "5c6e88e6-ec1c-47c3-821b-1d2fe4723ad3")
 	)
@@ -563,6 +553,7 @@
 		(remove_unused_layers no)
 		(uuid "081775e0-62ee-42ae-93c1-31343a28723c")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_2x09_P2.00mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
